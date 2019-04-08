@@ -116,3 +116,5 @@ alias eck='emacsclient -e "(kill-emacs)"'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias zsh-config="emacs ~/.zshrc ; source ~/.zshrc"
+
+neofetch --ascii_bold off
