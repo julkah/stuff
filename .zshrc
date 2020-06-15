@@ -116,7 +116,11 @@ alias eck='emacsclient -e "(kill-emacs)"'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# configuring and reloading .zshrc
 alias zsh-config="emacs ~/.zshrc ; source ~/.zshrc"
+
+# show specs at session start
 neofetch --ascii_bold off
 
+# necessary for using thefuck as fuck
 eval $(thefuck --alias)
