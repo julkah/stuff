@@ -119,8 +119,14 @@ alias eck='emacsclient -e "(kill-emacs)"'
 # configuring and reloading .zshrc
 alias zsh-config="emacs ~/.zshrc ; source ~/.zshrc"
 
+# add alias for singed message commits
+alias gcSm="git commit -S -m"
+
 # show specs at session start
 neofetch --ascii_bold off
 
 # necessary for using thefuck as fuck
 eval $(thefuck --alias)
+
+# add environment variable for gpg use
+export GPG_TTY=$(tty)
