@@ -54,7 +54,7 @@ ZSH_DISABLE_COMPFIX="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git z man osx copydir copyfile tmux shrink-path
+    git z man osx copydir copyfile tmux shrink-path zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
