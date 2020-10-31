@@ -127,6 +127,3 @@ neofetch --ascii_bold off
 
 # necessary for using thefuck as fuck
 eval $(thefuck --alias)
-
-# add environment variable for gpg use
-export GPG_TTY=$(tty)
