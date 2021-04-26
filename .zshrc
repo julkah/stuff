@@ -122,3 +122,7 @@ neofetch --ascii_bold off
 
 # necessary for using thefuck as fuck
 eval $(thefuck --alias)
+
+# key bindings
+bindkey '^[^[[C' forward-word
+bindkey '^[^[[D' backward-word
